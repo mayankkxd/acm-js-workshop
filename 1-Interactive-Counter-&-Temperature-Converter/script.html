@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="script.css">
+</head>
+<body>
+    <h1>Choose one of the following: </h1>
+    <section class = "radiobtns">
+        <input type = "radio" id = "counterbtn" name = "choice">
+        <label for = "counterbtn">Show Counter</label>
+        <input type = "radio" id = "tempbtn" name = "choice">
+        <label for = "tempbtn">Show Temperature Conversion</label>
+    </section>
+    <section id = "counter">
+        <br>
+        <label id = "num">0</label><br><br>
+        <div id = "buttons">
+            <button id = "inc" class="buttonss">+</button>
+            <button id = "reset" class="buttonss">Reset</button>
+            <button id = "dec" class="buttonss">-</button></div>
+    </section>
+    <section id = "temp">
+        <br>
+        <label>Enter Temperature value:</label>
+        <input type = "number" id = "tempIn" value = 0><br><br>
+        <input type = "radio" id = "CtoF" name = "convert">
+        <label for = "CtoF">To Farhenheit</label>
+        <input type = "radio" id = "FtoC" name = "convert">
+        <label for = "FtoC">To Celcius</label><br><br>
+        <input type = "submit" id = "submit">
+        <p id = "result"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

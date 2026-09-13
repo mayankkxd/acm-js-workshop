@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    display: block;
+}
+h1{
+    text-align: left;
+    color: red;
+}
+#num{
+    font-size: 5em;
+}
+.buttonss{
+    font-size: 2em;
+    color: rgb(255, 0, 0);
+    background-color: rgb(35, 236, 102);
+    transition: background-color 0.25s color 0.5s;
+    border-radius: 10px;
+}
+.buttonss:hover{
+    background-color: green;
+    color: blue;
+}
+#tempIn{
+    width: 50px;
+}
+#submit{
+    color: red;
+    border-radius: 5px;
+}
